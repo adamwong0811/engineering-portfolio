@@ -6,19 +6,6 @@
 **Tools:** PSpice, breadboard prototype, KiCad in progress  
 **Source report:** `NE5532_HeadphoneAmp_Report.docx`, `NE5532_HeadphoneAmp_Report.pdf`
 
-## Visual Evidence To Add
-
-Suggested asset filenames:
-
-- `assets/headphone-amp-dual-supply-schematic.png`
-- `assets/headphone-amp-dual-supply-transient.png`
-- `assets/headphone-amp-dual-supply-thd.png`
-- `assets/headphone-amp-dual-supply-ac-response.png`
-- `assets/headphone-amp-single-supply-schematic.png`
-- `assets/headphone-amp-single-supply-transient.png`
-- `assets/headphone-amp-single-supply-thd.png`
-- `assets/headphone-amp-single-supply-ac-response.png`
-
 ## Project Summary
 
 This project is a desktop headphone amplifier designed for the Sennheiser HD490 Pro, a 130 ohm professional monitoring headphone. The amplifier uses an NE5532 dual op-amp as the voltage-gain stage and a complementary BD139/BD140 Class AB push-pull output stage to supply the current required by the headphone load.
@@ -32,6 +19,36 @@ The design was developed as a complete analog signal-chain project: target speci
 - Global feedback path redesigned to include the transistor output stage, reducing crossover distortion.
 - 18 V single-supply architecture with an active virtual ground rail splitter.
 - Output coupling capacitor sized to protect the headphone from DC offset while preserving low-frequency response.
+
+## Schematics
+
+### Dual-Supply Version
+
+![Dual-supply headphone amplifier schematic](../assets/headphone-amp-dual-supply-schematic.png)
+
+### Single-Supply Version
+
+![Single-supply headphone amplifier schematic with virtual ground](../assets/headphone-amp-single-supply-schematic.png)
+
+## Simulation Results
+
+### Transient Response
+
+![Dual-supply transient output waveform](../assets/headphone-amp-dual-supply-transient.png)
+
+![Single-supply transient output waveform](../assets/headphone-amp-single-supply-transient.png)
+
+### AC Response and Stability
+
+![Dual-supply AC response: gain and phase margin](../assets/headphone-amp-dual-supply-ac-response.png)
+
+![Single-supply AC response: gain and phase margin](../assets/headphone-amp-single-supply-ac-response.png)
+
+### THD and Harmonic Distortion
+
+![Dual-supply FFT showing THD at 1 kHz](../assets/headphone-amp-dual-supply-thd.png)
+
+![Single-supply FFT showing THD at 1 kHz](../assets/headphone-amp-single-supply-thd.png)
 
 ## Key Results
 
