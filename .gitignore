@@ -1,0 +1,11 @@
+# Local/editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary exports
+*.tmp
+~$*
+
+# Keep notebooks intentional
+.ipynb_checkpoints/
