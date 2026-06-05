@@ -52,6 +52,8 @@ The NMOS was fabricated using a 4-mask process flow on a p-type silicon wafer (b
 
 ## Oxide Thickness Measurement
 
+![Measurement of wafer thickness measurement](../assets/nmos-wafer-thickness-measurement.jpg)
+
 Oxide thickness was measured at five points across the wafer using a Filmetrics spectrophotometer before and after dry oxidation.
 
 | Stage | Average Oxide Thickness |
