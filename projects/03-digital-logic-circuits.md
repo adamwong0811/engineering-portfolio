@@ -1,9 +1,9 @@
 # Digital Logic Circuits: Sequential and Combinational System Design
 
-**CV priority:** 03
-**Date:** January–March 2025
-**Type:** Digital Electronics Laboratory (EFB1054)
-**Tools:** Breadboard, 74xx logic ICs, CircuitVerse, DMM
+**CV priority:** 03  
+**Date:** January–March 2025  
+**Type:** Digital Electronics Laboratory (EFB1054)  
+**Tools:** Breadboard, 74xx logic ICs, CircuitVerse, DMM  
 **Source reports:** Module 1, Module 2, Module 3 lab reports
 
 ## Project Summary
