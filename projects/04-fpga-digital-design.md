@@ -1,9 +1,9 @@
 # Self-Directed FPGA and Verilog Design
 
-**CV priority:** 04
-**Date:** January 2025
-**Type:** Self-directed digital design learning
-**Tools:** Verilog HDL, EDA Playground simulation
+**CV priority:** 04  
+**Date:** January 2025  
+**Type:** Self-directed digital design learning  
+**Tools:** Verilog HDL, EDA Playground simulation  
 **Source evidence:** CV details and EDA Playground simulations
 
 ## Project Summary
